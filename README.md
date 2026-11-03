@@ -1,4 +1,4 @@
-# RRQ Tournament:
+# RRQ Tournament
 
 Landing page satu halaman (single-page) berisi katalog seluruh turnamen RRQ.
 Tema hitam dengan aksen emas. Dibuat dengan HTML, CSS, dan JavaScript murni,
