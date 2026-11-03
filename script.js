@@ -1,5 +1,5 @@
 /* =========================================================
-   RRQ TOURNAMENT: Katalog Portofolio
+   RRQ TOURNAMENT
    Isi: data turnamen, render kartu, popup, menu mobile,
    header, animasi gulir, penghitung angka, link aktif.
    ========================================================= */
