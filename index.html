@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RRQ Tournament | Katalog Portofolio Turnamen</title>
+  <meta name="description" content="Katalog portofolio seluruh turnamen yang pernah diselenggarakan RRQ Tournament. Every Pro Journey Starts Somewhere." />
+  <meta name="theme-color" content="#0a0a0a" />
+
+  <!-- Font: Barlow Condensed (judul) + Inter (isi).
+       Ganti di sini dan di style.css (--font-display / --font-body). -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER / NAVIGASI (3 menu) ============ -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#hero" class="logo" aria-label="RRQ Tournament, kembali ke atas">RRQ <span>TOURNAMENT</span></a>
+
+      <nav class="nav" id="nav" aria-label="Navigasi utama">
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#tournament" class="nav-link">Tournament</a>
+        <a href="#social" class="nav-link">Social Media</a>
+      </nav>
+
+      <!-- Tombol menu untuk layar kecil -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO (layar penuh) ============ -->
+    <section class="hero" id="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">Katalog Portofolio</p>
+          <h1 class="hero-title reveal" style="--d:.08s">
+            RRQ<br /><em>Tournament</em>
+          </h1>
+          <p class="hero-lead reveal" style="--d:.16s">
+            Seluruh turnamen yang pernah diselenggarakan RRQ, dari panggung pelajar
+            hingga kompetisi komunitas, dalam satu katalog.
+          </p>
+          <div class="hero-actions reveal" style="--d:.24s">
+            <a href="#tournament" class="btn btn-gold">Lihat Tournament</a>
+            <a href="#about" class="btn btn-ghost">Tentang Kami</a>
+          </div>
+        </div>
+
+        <!-- Kumpulan logo di hero (gambar dari folder assets/) -->
+        <div class="hero-visual reveal" style="--d:.2s" aria-hidden="true">
+          <img class="hv hv-1" src="assets/rrq-school-championship.png" alt="" />
+          <img class="hv hv-2" src="assets/rrq-cup.png" alt="" />
+          <img class="hv hv-3" src="assets/rrq-mabar-highschool.png" alt="" />
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-hint" aria-label="Gulir ke bawah"><span></span></a>
+    </section>
+
+    <!-- ============ ABOUT US ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about-head">
+          <div>
+            <p class="eyebrow reveal">Tentang Kami</p>
+            <h2 class="section-title reveal" style="--d:.06s">Every Pro Journey<br />Starts Somewhere.</h2>
+          </div>
+          <div class="about-text">
+            <p class="reveal">
+              Tidak semua tim hebat memulai perjalanannya dari panggung besar. Ada yang memulai
+              dari warnet sederhana, bermain bersama teman sepulang sekolah, membentuk tim dari
+              komunitas kecil, hingga berani mendaftarkan diri ke turnamen pertama mereka. Berbekal
+              mimpi, semangat, dan keinginan untuk membuktikan kemampuan, mereka mengambil langkah
+              pertama menuju sesuatu yang lebih besar.
+            </p>
+            <p class="reveal" style="--d:.06s">
+              RRQ Tournament bukan sekadar rangkaian pertandingan untuk menentukan siapa yang menjadi
+              juara. Lebih dari itu, RRQ Tournament adalah wadah bagi setiap tim untuk menunjukkan
+              potensi, menguji kemampuan, membangun pengalaman, dan menemukan sejauh mana mereka bisa
+              melangkah.
+            </p>
+            <p class="reveal" style="--d:.12s">
+              Kami percaya bahwa perjalanan menuju profesional tidak selalu dimulai dari panggung
+              profesional. Setiap pemain memiliki titik awalnya sendiri. Setiap tim memiliki cerita
+              perjuangannya sendiri. Dan setiap mimpi membutuhkan kesempatan untuk tumbuh.
+            </p>
+          </div>
+        </div>
+
+        <!-- Angka (animasi hitung saat terlihat). Ganti angka lewat atribut data-count. -->
+        <div class="stats">
+          <div class="stat reveal">
+            <span class="stat-num" data-count="5" data-suffix="+">0</span>
+            <span class="stat-label">Tahun pengalaman</span>
+          </div>
+          <div class="stat reveal" style="--d:.08s">
+            <span class="stat-num" data-count="50" data-suffix="+">0</span>
+            <span class="stat-label">Tournament berjalan</span>
+          </div>
+          <div class="stat reveal" style="--d:.16s">
+            <span class="stat-num" data-count="20000" data-suffix="+">0</span>
+            <span class="stat-label">Player berpartisipasi</span>
+          </div>
+          <div class="stat reveal" style="--d:.24s">
+            <span class="stat-num" data-count="30" data-suffix="+">0</span>
+            <span class="stat-label">Provinsi terjangkau</span>
+          </div>
+        </div>
+
+        <div class="pillars">
+          <article class="pillar reveal">
+            <h3>Professional Experience</h3>
+            <p>Menghadirkan pengalaman turnamen yang baik bagi player</p>
+          </article>
+          <article class="pillar reveal" style="--d:.1s">
+            <h3>Turnamen bergengsi</h3>
+            <p>Menghadirkan kompetisi yang kompetitif dan bergengsi bagi tim-tim yang ingin membuktikan kemampuan mereka</p>
+          </article>
+          <article class="pillar reveal" style="--d:.2s">
+            <h3>Hasil nyata</h3>
+            <p>Melahirkan bibit player baru yang berkualitas untuk ruang lingkup esports</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TOURNAMENT (katalog + popup) ============ -->
+    <section class="section section-alt" id="tournament">
+      <div class="container">
+        <div class="center-head">
+          <p class="eyebrow reveal">Portofolio</p>
+          <h2 class="section-title reveal" style="--d:.06s">RRQ TOURNAMENT</h2>
+        </div>
+
+        <!-- Kartu dibuat otomatis oleh script.js dari daftar TOURNAMENTS -->
+        <div class="grid" id="tournamentGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============ SOCIAL MEDIA ============ -->
+    <section class="section" id="social">
+      <div class="container">
+        <div class="center-head">
+          <p class="eyebrow reveal">Media Sosial Resmi</p>
+          <h2 class="section-title reveal" style="--d:.06s">Ikuti kabar dan jadwal tournament terbaru kami.</h2>
+        </div>
+
+        <div class="solo">
+          <!-- URL & handle diisi dari CONFIG.instagram di script.js -->
+          <a class="link-card reveal" id="instagramCard" href="#" target="_blank" rel="noopener noreferrer">
+            <svg class="ig-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg>
+            <span class="link-card-label">Instagram</span>
+            <span class="link-card-sub" id="instagramHandle">@rrq_tournament</span>
+            <span class="link-card-arrow" aria-hidden="true">&nearr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="logo">RRQ <span>TOURNAMENT</span></span>
+      <span class="footer-copy">&copy; <span id="year">2026</span> RRQ Tournament. Hak cipta dilindungi.</span>
+      <a href="#top" class="footer-top">Kembali ke atas &uarr;</a>
+    </div>
+  </footer>
+
+  <!-- ============ POPUP TURNAMEN ============
+    Konten diisi otomatis oleh script.js dari daftar TOURNAMENTS.
+    Ditutup dengan tombol X, klik area gelap, atau tombol Esc. -->
+  <div class="modal" id="tournamentModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1">
+      <button type="button" class="modal-close" data-close aria-label="Tutup">&times;</button>
+
+      <div class="modal-media" id="modalMedia">
+        <img id="modalImg" alt="" />
+      </div>
+
+      <div class="modal-body">
+        <span class="tag" id="modalTag"></span>
+        <h3 id="modalTitle"></h3>
+        <p class="modal-desc" id="modalDesc"></p>
+        <div class="modal-subs" id="modalSubs" hidden>
+          <span class="modal-subs-label">Rangkaian turnamen</span>
+          <ul id="modalSubsList"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
